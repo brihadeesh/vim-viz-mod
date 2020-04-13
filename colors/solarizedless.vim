@@ -12,7 +12,7 @@ let s:bg = "230"
 let s:fg = "242"
 let s:mute = "246"
 
-if &background == "light"
+if &background == "dark"
   let s:bg = "242"
   let s:fg = "230"
 endif
