@@ -8,13 +8,13 @@ endif
 let colors_name="solarizedless"
 " }}}
 " Colors {{{
-let s:bg = "230"
-let s:fg = "241"
-let s:mute = "245"
+let s:bg = "NONE"
+let s:fg = "233"
+let s:mute = "109"
 
 if &background == "dark"
-  let s:bg = "241"
-  let s:fg = "230"
+  let s:bg = "233"
+  let s:fg = "NONE"
 endif
 
 if exists("g:solarizedless_bg")
