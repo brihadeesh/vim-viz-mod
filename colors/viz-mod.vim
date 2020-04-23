@@ -5,7 +5,7 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let colors_name="solarizedless"
+let colors_name="vizmod"
 " }}}
 " Colors {{{
 let s:bg = "NONE"
