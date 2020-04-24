@@ -17,16 +17,16 @@ if &background == "dark"
   let s:fg = "NONE"
 endif
 
-if exists("g:solarizedless_bg")
-  let s:bg = g:solarizedless_bg
+if exists("g:vizmod_bg")
+  let s:bg = g:vizmod_bg
 endif
 
-if exists("g:solarizedless_fg")
-  let s:bg = g:solarizedless_fg
+if exists("g:vizmod_fg")
+  let s:bg = g:vizmod_fg
 endif
 
-if exists("g:solarizedless_muted")
-  let s:mute = g:solarizedless_muted
+if exists("g:vizmod_muted")
+  let s:mute = g:vizmod_muted
 endif
 " }}}
 " Groups {{{
@@ -157,14 +157,14 @@ for group in s:clear
 endfor
 " }}}
 " Options {{{
-if exists("g:solarizedless_syntax_bold")
+if exists("g:vizmod_syntax_bold")
   exec("hi Function cterm=bold")
   exec("hi Statement cterm=bold")
   exec("hi Conditional cterm=bold")
   exec("hi Keyword cterm=bold")
 endif
 
-if exists("g:solarizedless_syntax_mute")
+if exists("g:vizmod_syntax_mute")
   exec("hi Function ctermfg=" . s:mute)
   exec("hi Statement ctermfg=" . s:mute)
   exec("hi Conditional ctermfg=" . s:mute)
