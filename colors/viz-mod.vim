@@ -10,7 +10,7 @@ let colors_name="vizmod"
 " Colors {{{
 let s:bg = "NONE"
 let s:fg = "233"
-let s:mute = "109"
+let s:mute = "108"
 
 if &background == "dark"
   let s:bg = "233"
